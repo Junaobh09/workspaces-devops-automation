@@ -1,0 +1,13 @@
+name: Hello Gitgub Actions
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  say-hello:
+  runs-on: ubuntu-latest
+  steps:
+    - name: Exibir mensagem no log
+      run: echo "Git gub Actions funcionando com sucesso"
