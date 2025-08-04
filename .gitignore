@@ -42,4 +42,4 @@ docker-compose.override.yml
 *.swp
 
 #Arquivos terraform
-*.terraform
+.terraform*
